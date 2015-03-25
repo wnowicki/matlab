@@ -3,7 +3,7 @@
 % author  WN
 % created 27/01/2015
 
-classdef Email
+classdef Email < handle
 
     properties(GetAccess = 'public', SetAccess = 'private')
         emailAddress

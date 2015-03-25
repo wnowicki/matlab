@@ -4,7 +4,7 @@
 % created 24/01/2015
 % see http://en.wikipedia.org/wiki/Syslog
 
-classdef Logger
+classdef Logger < handle
 
     properties(GetAccess = 'public', SetAccess = 'private')
         fh
