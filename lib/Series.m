@@ -29,7 +29,7 @@ classdef Series < handle
             obj.predictionSize = predictionSize;
 
             obj.slabSize = slabSize;
-            obj.slabCount = obj.size - slabSize + predictionSize + 1;
+            obj.slabCount = obj.size - slabSize - predictionSize + 1;
         end
 
         function slab = getSlab(obj, x)
